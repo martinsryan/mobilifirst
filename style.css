@@ -1,0 +1,14 @@
+:root{
+    --cor-de-fundo:#EBECEE;
+font-size: 50px;
+}
+body{
+    background-color: var(--cor-de-fundo);
+}
+h1{
+    background-color: blue;
+    text-align: center;
+    padding: 100px;
+    
+    
+}
