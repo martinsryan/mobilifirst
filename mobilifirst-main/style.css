@@ -1,5 +1,8 @@
 :root{
     --cor-de-fundo:#EBECEE;
+    --branco:#FFFF;
+    --laranja:#eb9b00;
+    --azul-degrade:linear-gradiente(97.54deg,35.49%,#326589 165.37%)
 font-size: 50px;
 }
 body{
@@ -40,7 +43,17 @@ h1{
    .container-imagem{
     padding: 1em;
     margin: 1em;
-    width: 2em;
-
-
+    width: 5em;
    }
+    .container-botao:checked ~.lista-menu{
+        display: block;
+    }
+    
+    .lista-menu{
+        display: inline-block;
+        position: absolute;
+        top: 100%;
+        width: 70%;
+                      }
+    
+    .lista-menu__titulo, 
