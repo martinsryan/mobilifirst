@@ -111,3 +111,21 @@ font-size: 30px;
 .swiper-sline img{
     width: 45%;
 }
+.card-descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0,5em;
+}
+.card-botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.botoes{
+    display: flex;
+}
+.card{
+    background: white;
+    border-radius: white;
+    width: 80%;
+    text-align: center;
+}
