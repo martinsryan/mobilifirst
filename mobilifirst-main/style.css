@@ -23,7 +23,7 @@ background-color: var(--cor-de-fundo)
     .cabeçalho{
    background-color: var(--branco);
    display: flex;
-   justify-content: space-between;
+   justify-content: space-between; 
    align-items: center;
    position: relative;
 
@@ -121,6 +121,7 @@ font-size: 30px;
 .card-botoes{
     display: flex;
     justify-content: space-between;
+
 }
 .botoes{
     display: flex;
@@ -139,6 +140,24 @@ font-size: 30px;
     background-color:#7a0000;
     font-size:40px ;
 }
-.botoes-itens{
+.botoes-item{
     margin: 10px;
+}
+.botoes-ancora{
+    background-color: var(--laranja);
+    padding: 1em 1em;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+    margin: 20px;
+
+}
+.topicos{
+    background: var(--azul-degrade);
+    text-align:center ;}
+
+.Titulo-tpicos{
+    color: #EBECEE;
+    font-size: 500;
+    font-size: 20px;
 }
