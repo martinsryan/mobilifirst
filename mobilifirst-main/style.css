@@ -153,11 +153,35 @@ font-size: 30px;
 
 }
 .topicos{
-    background: var(--azul-degrade);
+    background-color:rgb(100, 0, 0);
     text-align:center ;}
 
-.Titulo-tpicos{
+.titulos-topicos{
     color: #EBECEE;
     font-size: 500;
+    font-size: 20px;
+    font-size: 300;
+}
+.topicos-lista{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    outline-width: 200;
+    padding: 1em;
+    font-size: 10px;
+    margin: 60px;
+}
+.topicos-link{
+    color: #ffffff;
+    padding: 20px;
+    background-color: var(--laranja);
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    
+}
+.rodape{
+    background-color: #ffffff;
+    padding: 60px;
     font-size: 20px;
 }
